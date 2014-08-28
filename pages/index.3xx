@@ -1,0 +1,13 @@
+---
+destination: 'en/blog'
+with_http: true
+---
+<ul>
+	<li><a href="en/blog">English version</a></li>
+	<li><a href="uk/blog">Українська версія</a></li>
+</ul>
+<script>
+	var lang = window.navigator.userLanguage || window.navigator.language;
+	lang = lang.substr(0,2);
+	window.location.href = lang + '/blog';
+</script>

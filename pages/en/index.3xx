@@ -1,0 +1,6 @@
+---
+destination: 'blog'
+with_http: true
+with_js: true
+---
+Redirecting to the <a href="blog">blog</a>...
