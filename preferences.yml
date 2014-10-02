@@ -1,0 +1,6 @@
+# A list of languages site supports.
+# The firts in a list is concidered default language.
+languages: [ 'en', 'uk' ]
+
+# Number of posts displayed on latest posts page.
+latest_count: 8
